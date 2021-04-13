@@ -1,0 +1,23 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+              "useBuiltIns": "entry",
+              "modules": false,
+              "corejs": 2
+            }
+          ],
+          "@babel/preset-react"
+    ],
+    "plugins": [
+        [
+            "import",
+            {
+                "libraryName": "antd",
+                "libraryDirectory": "es",
+                "style": true
+            }
+        ]
+    ]
+}
